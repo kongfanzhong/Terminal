@@ -5,6 +5,7 @@ from .navigation import ShortestPathFinder
 from .util import send_command, debug_write
 from .unit import GameUnit
 from .game_map import GameMap
+import sys
 
 def is_stationary(unit_type):
     return unit_type in FIREWALL_TYPES
